@@ -1,4 +1,4 @@
-# Simple Todo List App Docs
+# Simple To-do List App Docs
 
 ## Table of Contents
 
@@ -33,13 +33,13 @@ Make sure you have the following installed:
 1. **Clone the Repository:**
 
    ```bash
-   git clone 
+   git clone https://github.com/Ramprakash852/To-Do-List.git
    ```
 
 2. **Navigate to the Project Directory:**
 
    ```bash
-   cd to-do-list
+   cd To-Do-List
    ```
 
 3. **Open `main.html` in a Browser:**
