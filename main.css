@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  min-width: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(22, 118, 106);
+}
+
+.containeer {
+  margin: auto;
+  margin-top: 20px;
+}
+
+H1 {
+  text-align: center;
+  background-color: rgb(22, 118, 106);
+}
+
+
+
+.mini-containeer {
+  background-color: rgb(157, 183, 180);
+  padding: 1em;
+  padding-bottom: 10px;
+  border-radius: 0.8em;
+  box-shadow: 0 1em 2em rgba(0, 0, 0, 0.3);
+}
+
+.input {
+  background-color: rgb(157, 183, 180);
+  margin-top: 5px;
+  position: relative;
+  display: grid;
+  grid-template-columns: 5fr 2fr;
+  gap: 0.5em;
+}
+
+.tasks {
+  text-align: left;
+}
+
+.input input {
+  font-size: 20px;
+  background-color: rgb(157, 183, 180);
+  border: none;
+  border-bottom: 2px solid rgb(0, 75, 129);
+
+}
+
+.input ::placeholder {
+  color: rgb(218, 226, 225);
+}
+
+.input input:focus {
+  outline: none;
+  border-color: rgb(0, 75, 129);
+}
+
+#add {
+  font-size: 20px;
+  background-color: rgba(255, 166, 0, 0.767);
+  color: rgb(218, 226, 225);
+  border-radius: 0.8em;
+  border-color: orange;
+}
+
+#error {
+  background-color: rgb(157, 183, 180);
+  text-align: center;
+  margin-top: 25px;
+  color: rgb(255, 0, 0);
+  padding: 0.5em;
+  border-radius: 0.8em;
+  display: none;
+}
+.task{
+  display: grid;
+  grid-template-columns: 0.2fr 2.0fr 0.3fr 0.3fr;
+  gap: 1em;  
+  align-items: center;
+  margin-bottom: 20px;
+  font-size: larger;
+}
+.edit{
+  background-color: #5a95ff;
+}
+.delete{
+  background-color: #ff5c5c;
+}
+.completed{
+  text-decoration: line-through;
+  color: #a0a0a0;
+}
