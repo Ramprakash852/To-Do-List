@@ -1,5 +1,3 @@
-#  <img src="https://github.com/takitajwar17/Simple-Todo-List-Refactored/assets/111155827/4b1c2e01-f24b-4f39-899e-c356d468e386" width="300">
-
 # Simple Todo List App Docs
 
 ## Table of Contents
